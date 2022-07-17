@@ -10,9 +10,11 @@ This repository has the compilation of the most basic and important codes of the
 int main(){
   printf("This repository has the next folders:");
   printf("\n - Programming fundamentals.");
+  printf("\n - OOP.");
   printf("\n - Data structures.");
   printf("\n - Numerical analysis.");
-  printf("\n - Microcontrollers.");
+  printf("\n - Microprocessadors.");
+  printf("\n - Microcontroladors.");
 
   system("PUSE");
   
