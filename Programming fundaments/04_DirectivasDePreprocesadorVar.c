@@ -1,6 +1,6 @@
 // Directivas de procesador y variables en C.
 
-// Directivas de procesador, bibliotecas o headers en C.
+// Directivas de preprocesador, bibliotecas o headers en C.
 #include <stdio.h>                                              // Incluye la libreria estandar de entrada y salida en C.
 #include <math.h>
 
