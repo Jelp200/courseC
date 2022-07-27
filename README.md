@@ -1,5 +1,5 @@
 # courseC
-This repository has the compilation of the most basic and important codes of the C programming language.
+Este repositorio contiene los temas más relevantes de forma practica para entender el lenguaje C
 
 ```C
 /*
@@ -17,9 +17,8 @@ This repository has the compilation of the most basic and important codes of the
 la carrera de ingenieria en comunicaciones y electronica.*/
 
 #include <stdio.h>
-// The course start to 0 and grow up to electronic and telecommunications engineer.
 
-char titulo[100] = "IPN | ESIME Zacatenco | Communications and electronics engineering"
+char titulo[100] = "IPN | ESIME Zacatenco | Communications and electronics engineering";
 
 int main(){
   puts("\t\t\tEl repositorio contiene lo soguiente:");
