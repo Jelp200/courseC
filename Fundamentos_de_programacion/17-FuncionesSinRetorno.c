@@ -1,16 +1,16 @@
 /*
 ** #########################################################################################
-**      Archivo: 13-For.c
+**      Archivo: 17-FuncionesSinRetorno.c
 **      SO: Windows 10
 **      Herramienta: Visual Studio Code
 **                   Code::Blocks
 **      Notas:
-**          Estructura de control FOR.
+**          Estructura de una función sin retorno:
 **
-**          for(inicialización; condición; incremento/decremento){
+**          void nombreFuncion(parametros){
 **              ...
-**              Código en C
-**              ...
+**              Código de la función (Intrucciones);
+**              ..
 **          }
 ** #########################################################################################
 */
@@ -18,14 +18,18 @@
 // Directivas de prerpocesador
 #include <stdio.h>
 
+// Prototipo(s) de funcion(es)
+void ESIME();
+
 // Main Function
 int main(){
-    // int i = 0;
-
-    // Tambien podemos inicializar la variable dentro del ciclo.
-    for (int i = 0; i <= 254; i++){
-        printf("%c\n", i);                    // Imprime el código ASCII.
-    }
+    
+    ESIME();
     
     return 0;
+}
+
+// Funcion(es)
+void ESIME(){
+    puts("Escuela Superior de Ingenieria Mecanica y Electrica | Zacatenco | ICE");
 }

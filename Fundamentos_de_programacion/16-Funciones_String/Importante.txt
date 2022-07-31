@@ -1,0 +1,3 @@
+Siempre que querramos utilizar alguna función que incorpore acciones con las cadenas de caracteres tendremos que agregar una nueva libreria llamada:
+
+    #include <string.h>
